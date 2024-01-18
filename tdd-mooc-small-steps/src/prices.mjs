@@ -87,7 +87,7 @@ function createApp(database) {
   }
 
   function convert(date){
-    return Temporal.PlainDate.from(date.replaceAll("-", "/") )
+    return Temporal.PlainDate.from(date)
   }
 
   function isHoliday(date) {
