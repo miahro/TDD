@@ -83,7 +83,7 @@ function createApp(database) {
   }
 
   function isMonday(date) {
-    return date.getDay() === 1;
+    return date.getDay() === 1
   }
 
   function convert(date){
