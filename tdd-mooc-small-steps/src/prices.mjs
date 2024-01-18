@@ -86,7 +86,7 @@ function createApp(database) {
     return date.getDay() === 1;
   }
 
-  function convert2(date){
+  function convert(date){
     return Temporal.PlainDate.from(date)
   }
 
