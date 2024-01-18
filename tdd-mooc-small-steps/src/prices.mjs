@@ -87,7 +87,7 @@ function createApp(database) {
   }
 
   function convert(date){
-    return Temporal.PlainDate.from(date)
+    return Temporal.PlainDate.from({year: date.getFullYear(), month: date.getMonth+1, day: date.getDate()})
   }
 
   function isHoliday(date) {
