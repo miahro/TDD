@@ -86,7 +86,8 @@ function createApp(database) {
     return date.getDay() === 1;
   }
 
-  function convert(date){return Temporal.PlainDate.from(date)}
+  function convert(date){
+    return Temporal.PlainDate.from(date)}
 
   function isHoliday(date) {
     const holidays = database.getHolidays();
