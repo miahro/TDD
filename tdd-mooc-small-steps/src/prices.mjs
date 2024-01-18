@@ -100,7 +100,7 @@ function createApp(database) {
         date2 &&
         date2 .equals(holiday2) &&
         //convert(date).year === holiday.getFullYear() &&
-        convert(date).month - 1 === holiday.getMonth() &&
+        //convert(date).month - 1 === holiday.getMonth() &&
         convert(date).day === holiday.getDate()
       ) {
         return true;
