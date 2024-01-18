@@ -98,8 +98,7 @@ function createApp(database) {
       let holiday2 = convert(holiday)
       if (
         date2 &&
-        date2 .equals(holiday2) &&
-        convert(date).day === holiday.getDate()
+        date2 .equals(holiday2) && convert(date).day === holiday.getDate()
       ) {
         return true;
       }
